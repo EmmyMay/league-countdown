@@ -1,0 +1,13 @@
+{
+  "extends": "@vue/tsconfig/tsconfig.web.json",
+  "include": ["src/**/*.ts","src/**/*.d.ts","src/**/*", "src/**/*.vue"],
+  "exclude": ["node_modules", ".vscode"],
+  "compilerOptions": {
+    "composite": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+    "declarationMap": true
+  }
+}
