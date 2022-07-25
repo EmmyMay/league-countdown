@@ -8,6 +8,7 @@
     "paths": {
       "@/*": ["./src/*"]
     },
-    "declarationMap": true
+    "declarationMap": true,
+    "types": ["vite/client"]
   }
 }
