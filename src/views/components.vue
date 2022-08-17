@@ -11,7 +11,7 @@ components: {
     <Heading tag="h1">I am the h1</Heading>
     <Heading tag="h2">I am the h2</Heading>
     <Heading tag="h3">I am the h3</Heading>
-    <Heading tag="h3" color="red">You can also color me</Heading>
+    <Heading tag="h3" color="aquamarine">You can also color me</Heading>
   </div>
 </template>
 
