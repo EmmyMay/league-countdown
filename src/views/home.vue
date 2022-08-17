@@ -1,3 +1,12 @@
+<script setup lang="ts">
+import Heading from '../components/Text/heading.vue'
+components: {
+  Heading
+}
+</script>
+
 <template>
-  <h1>I am the home</h1>
+  <Heading tag="h1">I am the home</Heading>
 </template>
+
+<style scoped></style>
