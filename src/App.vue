@@ -7,7 +7,7 @@
 <style>
 @font-face {
   font-family: 'Helvetica';
-  src: url('@/assets/font/helvetica.woff') format('woff');
+  src: url('./assets/font/helvetica.woff') format('woff');
 }
 #app {
   font-family: Helvetica, Arial, sans-serif;
