@@ -15,7 +15,15 @@ const color = ref(`text-${props.color}`)
 </script>
 
 <template>
-  <component :is="tag" :class="[color, tag === 'h1' ? 'lg:text-h1' : '']">
+  <component
+    :is="tag"
+    :class="[
+      color,
+      tag === 'h1' ? 'text-h1-mobile lg:(text-h1 font-bold)' : '',
+      tag === 'h2' ? ' text-base lg:text-h2' : '',
+      tag === 'h3' ? ' text-base lg:text-h3' : '',
+    ]"
+  >
     <slot />
   </component>
 </template>
