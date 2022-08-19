@@ -14,5 +14,3 @@ components: {
     <Heading tag="h3" color="aquamarine">You can also color me</Heading>
   </div>
 </template>
-
-<style scoped></style>

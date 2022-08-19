@@ -1,7 +1,11 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import Container from './components/layout/container.vue'
+</script>
 
 <template>
-  <router-view />
+  <container>
+    <router-view />
+  </container>
 </template>
 
 <style>
