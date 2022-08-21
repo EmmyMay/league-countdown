@@ -8,6 +8,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@twicpics/components": "^0.9.0",
     "@vue/eslint-config-prettier": "^7.0.0",
     "vue": "^3.2.25",
     "vue-router": "^4.1.2"
