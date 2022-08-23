@@ -19,7 +19,7 @@ function createRoutes() {
   const imports = import.meta.globEager('../views/**/*.vue')
   const routes: RouteRecordRaw[] = []
 
-  Object.keys(imports).forEach((key: any) => {
+  Object.keys(imports).forEach((key: string) => {
     if (key === './index.ts') return
     let dynamicName = ''
     const name = key.replace(/(\.\.\/views\/|\.vue)/g, '')
