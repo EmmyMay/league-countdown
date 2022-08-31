@@ -19,7 +19,7 @@ withDefaults(defineProps<Props>(), {
     :width="width"
     :height="height"
     class="block"
-    src="src/assets/epl.png"
+    src="/src/assets/epl.png"
     alt="The premier league logo"
   />
 </template>
