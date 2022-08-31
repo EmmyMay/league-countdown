@@ -15,5 +15,11 @@ withDefaults(defineProps<Props>(), {
 })
 </script>
 <template>
-  <img class="block" src="@/assets/epl.png" alt="The premier league logo" />
+  <img
+    :width="width"
+    :height="height"
+    class="block"
+    src="src/assets/epl.png"
+    alt="The premier league logo"
+  />
 </template>
